@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>Crossing the Gap Resources</title>
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="HandheldFriendly" content="true" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,
+								maximum-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="master.css">
+		<link rel="shortcut icon" type="image/ico" href="resources/favicon.ico"/>
+		<script type="text/javascript" src="master.js"></script>
+		<script type="text/javascript" src="db.js"></script>
+	</head>
+
+	<body>
+		<div class="header">
+			<img src="resources/ctg.png" class="header-img">
+		</div>
+		<br />
+		<div class="filters">
+			<h3>Filter By</h3>
+			<label>Language</label>
+			<select id="lang">
+				<option value="any">All</option>
+				<option value="English">English</option>
+			</select>
+			<button id="submit">Submit</button>
+		</div>
+		<br />
+		<div class="body-wrapper">
+			<table id="table">
+				<thead>
+					<tr>
+						<th>Resource</th>
+						<th>Language</th>
+						<th>Contact</th>
+					<tr>	
+				<thead>
+				<tbody id="list"></tbody>
+			</table>
+		</div>
+	</body>
+</html>

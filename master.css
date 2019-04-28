@@ -1,0 +1,21 @@
+body {
+	color: #1e404e;
+}
+
+.header-img {
+	max-width: 45%;
+	max-height: 20%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#table {
+	width: 100%;
+	text-align: center;
+}
+
+.filters {
+	width: 100%;
+	text-align: center;
+}
